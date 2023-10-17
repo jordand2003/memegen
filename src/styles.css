@@ -5,3 +5,7 @@
 header{
     display: flex;
 }
+
+.title{
+    color: yellow;
+}
