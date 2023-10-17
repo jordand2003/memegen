@@ -16,21 +16,21 @@ export default function Body(){
                 <input 
                     type="text"
                     placeholder="Top text"
-                    className="form--input"
+                    className="input"
                 />
                 <input 
                     type="text"
                     placeholder="Bottom text"
-                    className="form--input"
+                    className="input"
                 />
                 <button 
-                    className="form--button"
+                    className="button"
                     onClick={getNewImage}
                 >
                     Get a new meme image
                 </button>
             </div>
-            <img src={memeImage} className="meme--image" />
+            <img src={memeImage} className="image" />
         </main>
     )
 }
