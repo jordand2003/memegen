@@ -4,8 +4,21 @@
 
 header{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
 }
 
 .title{
-    color: yellow;
+    display: block;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    padding-right: 15px;
 }
