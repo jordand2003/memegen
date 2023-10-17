@@ -2,10 +2,14 @@
     margin: 0;
 }
 
+main{
+    padding: 40px;
+}
+
 header{
     display: flex;
-    justify-content: center;
     align-items: center;
+    height: 50px;
     padding: 1rem;
     background-color: blue;
     color: white;
@@ -23,18 +27,28 @@ header{
     padding-right: 15px;
 }
 
-.controls{
+.form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
-    padding: 5rem;
-    gap: 15px;
+    gap: 17px;
 }
 
-button{
-    grid-column: 1/-1;
-    border-radius: 2rem;
+.form--input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
     background-color: blue;
     color: white;
-    font-weight: bold;
-    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.meme--image {
+    max-width: 100%;
+    padding: 1rem;
 }
