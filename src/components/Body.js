@@ -36,6 +36,7 @@ export default function Body(){
                     className="input"
                     name="topCaption"
                     value={formData.topCaption}
+                    onChange={handleChange}
                 />
                 <input 
                     type="text"
@@ -43,6 +44,7 @@ export default function Body(){
                     className="input"
                     name="bottomCaption"
                     value={formData.bottomCaption}
+                    onChange={handleChange}
                 />
                 <button 
                     className="button"
