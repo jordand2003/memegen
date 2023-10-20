@@ -53,7 +53,13 @@ export default function Body(){
                     Get a new meme image
                 </button>
             </div>
-            <img src={memeImage} className="image" />
+
+            <div className="meme">
+                <img src={memeImage} className="image" />
+                <h2 className="text top">{formData.topCaption}</h2>
+                <h2 className="text bottom">{formData.bottomCaption}</h2>
+            </div>
+
         </main>
     )
 }

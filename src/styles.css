@@ -1,5 +1,10 @@
 *{
     margin: 0;
+    font: "Rubik", "sans-serif";
+}
+
+body{
+    font-family: "Rubik";
 }
 
 main{
@@ -37,6 +42,7 @@ header{
     border-radius: 5px;
     border: 1px solid gray;
     text-indent: 5px;
+    font-family: Rubik;
 }
 
 .button {
@@ -46,9 +52,53 @@ header{
     color: white;
     border: none;
     cursor: pointer;
+    font-family: Rubik;
 }
 
 .image {
     max-width: 100%;
     padding: 1rem;
+}
+
+
+.meme {
+    position: relative;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
 }
