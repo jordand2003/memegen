@@ -8,8 +8,6 @@ export default function Body(){
         bottomCaption: ""
     })
 
-    console.log(formData);
-
     function handleChange(event){
         event.preventDefault()
         const {name, value} = event.target;
